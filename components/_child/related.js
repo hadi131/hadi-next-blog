@@ -41,7 +41,7 @@ const Post = () => {
           <div className="title">
             <Link
               href={"/"}
-              className="text-xl md:text-xl font-bold text-gray-800 hover:text-gray-600"
+              className="text-sm md:text-3xl font-bold text-gray-800 hover:text-gray-600 "
             >
               Your most unhappy customers are your greatest source of learning
             </Link>

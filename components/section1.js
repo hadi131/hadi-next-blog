@@ -34,6 +34,8 @@ const section1 = ({ blog }) => {
                           src={v.avatar}
                           width={500}
                           height={300}
+                          style={{ borderRadius:"10px" }}
+
                         />
                     </div>
 

@@ -240,12 +240,22 @@ margin: auto;
   .slider-grid{
     grid-template-columns: 1fr;
   }
+  .cat{
+    grid-template-columns: 1fr;
+  }
+}
+.cat{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 @media(max-width:760px){
   .sec2-parent{
     grid-template-columns: 1fr;
   }
   .sec3-parent{
+    grid-template-columns: 1fr;
+  }
+  .cat{
     grid-template-columns: 1fr;
   }
 }

@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
+
 const author = () => {
+  const { data } = useSession();
+
   return (
     <>
+    
       <div className="author flex py-5">
         <Image
           src={"/images/author/author1.jpg"}
@@ -15,7 +20,7 @@ const author = () => {
             href={"/"}
             className="text-md font-bold text-gray-800 hover:text-gray-600"
           >
-            Flying High
+           {data?.user?.name}
           </Link>
           <div className="text-sm text-gray-500">CEO and Founder</div>
         </div>
