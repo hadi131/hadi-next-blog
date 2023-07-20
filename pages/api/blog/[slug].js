@@ -13,7 +13,7 @@ export default async function (req, res) {
           singleBlog
         });
       } catch (error) {
-        res.status(err);
+        res.status(error);
       }
       break;
 
