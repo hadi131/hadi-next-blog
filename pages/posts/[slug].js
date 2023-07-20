@@ -42,7 +42,7 @@ const page = ({ Single }) => {
 export default page;
 
 export async function getServerSideProps({ params }) {
-  const response = await fetch(`http://localhost:3000/api/blog/${params.slug}`);
+  const response = await fetch(`https://hadi-blogging-app.vercel.app/api/blog/${params.slug}`);
   const Single = await response.json();
   return { props: { Single } };
 }

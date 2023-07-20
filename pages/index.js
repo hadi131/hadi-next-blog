@@ -21,7 +21,7 @@ export default function Home({data}) {
 
 
 export async function getServerSideProps(){
-  const res = await fetch("http://localhost:3000/api/getAllBlogs")
+  const res = await fetch("https://hadi-blogging-app.vercel.app/api/getAllBlogs")
   const data = await res.json()
   return {props : {data}}
 }

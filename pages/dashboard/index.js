@@ -10,7 +10,7 @@ const index = ({ data }) => {
   const handleDelete = async (slug) => {
     try {
       if (window.confirm("Are you sure you want to delete") === true) {
-        const del = await fetch(`http://localhost:3000/api/blog/${slug}`, {
+        const del = await fetch(`https://hadi-blogging-app.vercel.app/api/blog/${slug}`, {
           method: "DELETE"
         });
 
@@ -71,7 +71,7 @@ const index = ({ data }) => {
 export default index;
 
 export async function getServerSideProps() {
-  const res = await fetch("http://localhost:3000/api/getAllBlogs");
+  const res = await fetch("https://hadi-blogging-app.vercel.app/api/getAllBlogs");
   const data = await res.json();
   return { props: { data } };
 }
