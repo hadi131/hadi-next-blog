@@ -19,7 +19,7 @@ const Header = () => {
       <header className="bg-gray-50">
         <div className="xl:container xl:mx-auto flex flex-col items-center sm:flex-row sm:justify-between text-center py-3">
           <div className="md:flex-none w-96 order-2 sm:order-1 flex justify-center py-4 sm:py-0">
-            <h1 className="head" style={{fontSize:"30px", fontWeight:"700"}}>H Blogs</h1>
+            <h1 className="head" style={{fontSize:"30px", fontWeight:"700"}}>CodeWithHadi</h1>
           </div>
 
           {data?.user ? (
