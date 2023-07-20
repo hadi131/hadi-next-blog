@@ -69,6 +69,7 @@ const [isFetching,setIsfetching] = useState(false)
         ...form,
         avatar: ImageURL
       });
+      console.log(res)
       setIsfetching(false)
       // alert("Your blog is successfully posted");
 if(toast.success("Blog Upload Successfuly!",{

@@ -37,7 +37,7 @@ const section2 = ({ props }) => {
             <div className="sec2-title">
               <Link href={`/posts/${v.slug}`}>{v.title}</Link>
             </div>
-            <div className="sec2-subtitle">
+            <div className="sec2-subtitle" style={{height:"160px", overflow:"hidden"}}>
                   {v.subTitle}
             </div>
           <Author></Author>

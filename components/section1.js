@@ -21,7 +21,7 @@ const section1 = ({ blog }) => {
           <h1 className="font-bold text-4xl pb-12 text-center">Trending</h1>
           <Slider {...settings}>
         
-            {blog.SingleBlog.slice(0, 4).map((v, i) => {
+            {blog.SingleBlog.slice(0, 3).map((v, i) => {
               return (
                 <div className="slider-grid">
 
