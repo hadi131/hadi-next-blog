@@ -9,31 +9,34 @@ const page = ({ Single }) => {
 
   return (
     <Formate>
-      <section className="container mx-auto md:px-2 py-16 w-1/2">
-        <div className="flex justify-center">
+      <section className="singleBlogMainSection">
+      <div className="singleBlogSubMain">
+
+        <div className="">
           <Author></Author>
         </div>
-        <div className="post py-10">
-          <h1 className="font-bold text-4xl text-center">
+        <div className="post">
+          <h1 className="singlePostTtitle">
             {Single.singleBlog.title}
           </h1>
-          <p className="text-gray-500 text-xl text-center">
+          <p className="">
             {Single.singleBlog.subTitle}
           </p>
-          <div className="py-10">
+          <div className="" style={{display:"grid",justifyContent:"center",margin:"auto",padding:"20px 0"}}>
             <Image
               src={Single.singleBlog.avatar}
               width={900}
               height={600}
-              style={{ width: "900px", height: "600px" }}
+              style={{ maxWidth: "100%",borderRadius:"20px" }}
             ></Image>
           </div>
           <div
             dangerouslySetInnerHTML={createMarkup(Single.singleBlog.desc)}
-            className="content text-gray-600 text-lg flex flex-col gap-4"
+            className=""
           ></div>
         </div>
         <Related></Related>
+      </div>
       </section>
     </Formate>
   );

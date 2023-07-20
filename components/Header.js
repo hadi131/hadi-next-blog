@@ -10,6 +10,7 @@ const Header = () => {
     if (window.confirm("Are you sure you want to logOut") === true) {
       signOut();
       toast.success("Successfully Loggged Out");
+      
     }
   };
   return (

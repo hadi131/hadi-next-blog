@@ -281,3 +281,20 @@ border-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.singleBlogMainSection{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+.singleBlogSubMain{
+  /* max-width: 50%; */
+  display: grid;
+  justify-content: center;
+  padding: 20px 40px;
+}
+.singlePostTtitle{
+  font-size: 30px;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 0;
+}
