@@ -2,10 +2,8 @@ import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { Toast, Toaster, toast } from "react-hot-toast";
-
 const Header = () => {
   const { data } = useSession();
-
   const HandleSignOut = () => {
     if (window.confirm("Are you sure you want to logOut") === true) {
       signOut();

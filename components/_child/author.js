@@ -20,7 +20,8 @@ const author = () => {
             href={"/"}
             className="text-md font-bold text-gray-800 hover:text-gray-600"
           >
-           {data?.user?.name}
+           {/* {data?.user.name} */}
+           Abdul Hadi
           </Link>
           <div className="text-sm text-gray-500">CEO and Founder</div>
         </div>
