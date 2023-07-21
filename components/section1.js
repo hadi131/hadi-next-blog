@@ -43,14 +43,12 @@ const section1 = ({ blog }) => {
                       <div className="sec2-blog-date">
                         <Link
                           className="text-orange-600 hover:text-orange"
-                          href={"/"}
-                        >
+                          href={`/posts/${v.slug}`}                        >
                           {v.category}
                         </Link>
                         <Link
                           className="text-gray-600 hover:text-gray"
-                          href={"/"}
-                        >
+                          href={`/posts/${v.slug}`}                        >
                           {" "}
                           {new Date(v.createdAt).toDateString()}
                         </Link>
@@ -58,8 +56,7 @@ const section1 = ({ blog }) => {
 
                       <div className="title">
                         <Link
-                          href={"/"}
-                          className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600"
+href={`/posts/${v.slug}`}                          className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600"
                         >
                           {v.title}
                         </Link>

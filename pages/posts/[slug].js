@@ -10,7 +10,7 @@ const page = ({ Single }) => {
 
   return (
     <Formate>
-      <section className="singleBlogMainSection">
+      <section className="singleBlogMainSection" style={{marginTop:"120px"}}>
       <div className="singleBlogSubMain">
       <div className="" style={{display:"grid",justifyContent:"center",margin:"auto",padding:"20px 0"}}>
             <Image
@@ -52,8 +52,8 @@ const page = ({ Single }) => {
       </div>
       </section>
 
-      <h1 className="font-bold text-4xl py-12" style={{padding:"10px"}}>Related</h1>
-      <div className="flex gap-5" style={{padding:"10px"}}>
+      <h1 className="font-bold text-4xl py-12" style={{padding:"20px"}}>Related</h1>
+      <div className="flex gap-5" style={{padding:"20px"}}>
         <div className="image flex flex-col justify-start">
           <Image
             src={Single.singleBlog.avatar}
