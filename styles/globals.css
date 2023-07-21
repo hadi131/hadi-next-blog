@@ -223,7 +223,7 @@ margin: auto;
 .sec2-parent{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px;
+  padding: 30px;
   gap: 30px;
   
 }
@@ -278,6 +278,12 @@ margin: auto;
   padding-right: 8px;
   display: -webkit-box;
   -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.sec1-subtitle{
+  padding-right: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 .sec2-main{
