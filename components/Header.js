@@ -15,9 +15,9 @@ const Header = () => {
     <>
       <Toaster />
       <header className="bg-gray-50" style={{position:"fixed",width:"100%",zIndex:"9999",overflow:"hidden",top:"0px"}}>
-        <div className="xl:container flex flex-col items-center sm:flex-row sm:justify-between py-2">
+        <div className="xl:container flex flex-col items-center sm:flex-row sm:justify-between">
           <div className="md:flex-none w-96 order-2 sm:order-1 flex justify-center py-4 sm:py-0">
-           <Link href={"/"}> <h1 className="head" style={{fontSize:"30px", fontWeight:"700"}}>CodeWithHadi</h1></Link>
+           <Link href={"/"}> <h1 className="head" style={{fontSize:"30px", fontWeight:"700",padding:"0px"}}>CodeWithHadi</h1></Link>
           </div>
 
           {data?.user ? (
@@ -46,7 +46,7 @@ const Header = () => {
               href={"/dashboard"}
               >
 
-                <span className="userName profileBox order-3" style={{fontWeight:"800",padding:"0 30px"}}> {data?.user?.name} </span>
+                <span className="userName profileBox order-3" style={{fontWeight:"800"}}> {data?.user?.name} </span>
               </Link>
                 </div>
               

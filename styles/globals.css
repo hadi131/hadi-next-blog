@@ -51,11 +51,13 @@ margin: auto;
 }
 .write-blog-main-div {
   width: 90%;
-  margin: 80px auto;
+  margin: 120px auto 50px auto;
   box-shadow: 1px 1px 5px 0px rgb(138, 138, 138);
   border-radius: 10px;
   padding: 20px;
   display: grid;
+  
+  
 }
 .write-blog-main-div h1 {
   font-size: 30px;
@@ -74,6 +76,8 @@ margin: auto;
   outline: none;
   padding: 8px;
   border-radius: 10px;
+  display: grid;
+  
 }
 .feilds input:focus {
   border: 1px solid rgb(86, 86, 86);

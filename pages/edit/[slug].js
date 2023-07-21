@@ -116,7 +116,7 @@ const index = () => {
       <Header></Header>
       <div className="write-blog-main-div">
         <form action="" onSubmit={HandleUpdate}>
-          <h1>What's On Your Mind?</h1>
+          <h1>Edit Your Blog</h1>
 
           <div className="feilds">
             <label htmlFor="title">Title</label>

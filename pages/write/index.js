@@ -111,7 +111,7 @@ toast.error("Title Already Exists!",{
     <>
     <Toaster/>
     <Header></Header>
-      <div className="write-blog-main-div">
+      <div className="write-blog-main-div" >
         <form action="" onSubmit={handleSubmit}>
           <h1>What's On Your Mind?</h1>
 
