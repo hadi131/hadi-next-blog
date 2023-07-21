@@ -68,7 +68,7 @@ const page = ({ Single }) => {
           </div>
           <div className="title">
             <Link
-              href={`/posts/${v.slug}`}
+              href={"/"}
               className="text-sm md:text-3xl font-bold text-gray-800 hover:text-gray-600 "
             >
               {Single.singleBlog.title}
