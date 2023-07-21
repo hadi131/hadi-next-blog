@@ -166,11 +166,13 @@ margin: auto;
 
   .dash-main-div{
     width: 90%;
-    margin: 80px auto;
+    margin: 80px auto 80px auto;
     box-shadow: 1px 1px 5px 0px rgb(138, 138, 138);
     border-radius: 10px;
     padding: 20px;
     display: grid;
+    position: relative;
+    top: 65px;
   }
   .dash-main-div-logo-heading{
     font-size: 30px;
@@ -310,4 +312,20 @@ border-radius: 10px;
   font-weight: 700;
   width: 100%;
   padding: 10px 0;
+}
+.loginlogout{
+  background-color: black;
+  color: white;
+  padding: 5px 13px;
+  border-radius: 5px;
+  border: 1px solid black;
+font-size: 13px;
+}
+.loginlogout:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.slick-next {
+  right: 0px !important;
 }

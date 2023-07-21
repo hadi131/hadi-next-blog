@@ -19,7 +19,7 @@ const section1 = ({ blog }) => {
     <>
       <section className="py-16 section1-right-image header-main-section">
         <div className="container mx-auto md-px-20">
-          <h1 className="font-bold text-4xl pb-12 text-center">Trending</h1>
+          <h1 className="font-bold text-4xl pb-12 text-center" style={{marginTop:"20px"}}>Trending</h1>
           <Slider {...settings}>
         
             {blog.SingleBlog.slice(0, 3).map((v, i) => {

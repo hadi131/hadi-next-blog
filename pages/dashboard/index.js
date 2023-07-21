@@ -27,8 +27,8 @@ const index = ({ data }) => {
   return (
     <>
       <Header></Header>
-      <section className="dash-main-div">
-        <h1 className="dash-main-div-logo-heading">H BLOGS</h1>
+      <section className="dash-main-div" >
+        <h1 className="dash-main-div-logo-heading">CodeWithHadi</h1>
 
         {data?.SingleBlog?.map((v) => {
           return (

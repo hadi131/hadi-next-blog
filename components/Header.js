@@ -14,16 +14,16 @@ const Header = () => {
   return (
     <>
       <Toaster />
-      <header className="bg-gray-50">
-        <div className="xl:container xl:mx-auto flex flex-col items-center sm:flex-row sm:justify-between text-center py-3">
+      <header className="bg-gray-50" style={{position:"fixed",width:"100%",zIndex:"9999",overflow:"hidden",top:"0px"}}>
+        <div className="xl:container flex flex-col items-center sm:flex-row sm:justify-between py-2">
           <div className="md:flex-none w-96 order-2 sm:order-1 flex justify-center py-4 sm:py-0">
             <h1 className="head" style={{fontSize:"30px", fontWeight:"700"}}>CodeWithHadi</h1>
           </div>
 
           {data?.user ? (
             <>
-              <div className="order-3 flex justify-center px-10" >
-                <div className="flex gap-6">
+              <div className="order-3 flex justify-center px-5" >
+                <div className="flex gap-6" style={{alignItems:"center"}}>
                   <Link className="nav-links" href="/">
                     Home
                   </Link>
@@ -36,7 +36,7 @@ const Header = () => {
 
                   <span
                     children
-                    className="nav-links"
+                    className="nav-links loginlogout"
                     style={{ cursor: "pointer" }}
                     onClick={HandleSignOut}
                   >
@@ -54,13 +54,21 @@ const Header = () => {
             </>
           ) : (
             <>
-              <div className="flex gap-6 order-3  px-10">
+              <div className="flex gap-6 order-3  px-10" style={{alignItems:"center"}}>
                 <Link className="nav-links" href="/">
                   Home
                 </Link>
                 <Link className="nav-links" href="/">
                   About
                 </Link>
+                <Link
+                href={"/login"}
+                    children
+                    className="nav-links loginlogout"
+                    style={{ cursor: "pointer" }}
+                  >
+                    Log In
+                  </Link>
              
               </div>
             </>
