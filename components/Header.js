@@ -13,16 +13,18 @@ const Header = () => {
   };
   return (
     <>
-      <Toaster />
-      <header className="bg-gray-50" style={{position:"fixed",width:"100%",zIndex:"9999",overflow:"hidden",top:"0px"}}>
+ <Toaster
+        position="bottom-right"
+
+      />      <header className="bg-gray-50" style={{position:"fixed",width:"100%",zIndex:"9999",overflow:"hidden",top:"0px"}}>
         <div className="xl:container flex flex-col items-center sm:flex-row sm:justify-between">
           <div className="md:flex-none w-96 order-2 sm:order-1 flex justify-center py-4 sm:py-0">
-           <Link href={"/"}> <h1 className="head" style={{fontSize:"30px", fontWeight:"700",padding:"0px"}}>CodeWithHadi</h1></Link>
+           <Link href={"/"} style={{fontSize:"30px", fontWeight:"700",padding:"0px"}}>CodeWithHadi</Link>
           </div>
 
           {data?.user ? (
             <>
-              <div className="order-3 flex justify-center px-2 py-2" >
+              <div className="order-3 flex justify-center px-2 py-3" >
                 <div className="flex gap-6" style={{alignItems:"center"}}>
                   <Link className="nav-links" href="/">
                     Home

@@ -112,8 +112,10 @@ const index = () => {
 
   return (
     <>
-      <Toaster />
-      <Header></Header>
+ <Toaster
+        position="bottom-right"
+
+      />      <Header></Header>
       <div className="write-blog-main-div">
         <form action="" onSubmit={HandleUpdate}>
           <h1>Edit Your Blog</h1>

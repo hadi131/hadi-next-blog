@@ -14,7 +14,7 @@ const section3 = ({pop}) => {
 <h1 style={{fontSize:"40px",fontWeight:"700",textAlign:"center"}}>  Latest Blogs
 </h1>
 </div>
-    <div className="sec3-parent">
+    <div className="allMargins sec3-parent">
       {pop.SingleBlog.map((v) => {
         return (
           <div className="sec3-main">

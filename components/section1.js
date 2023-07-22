@@ -17,7 +17,7 @@ const section1 = ({ blog }) => {
   };
   return (
     <>
-      <section className="py-16 section1-right-image header-main-section">
+      <section className="allMargins py-16 section1-right-image header-main-section">
         <div className="container mx-auto md-px-20">
           <h1 className="font-bold text-4xl pb-12 text-center" style={{marginTop:"70px"}}>Trending</h1>
           <Slider {...settings}>

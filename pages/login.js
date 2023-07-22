@@ -47,7 +47,10 @@ const login = () => {
          }
 return (
   <>
-      <Toaster/>
+      <Toaster
+        position="bottom-right"
+
+      />
 
     <div className="register-user-main-div">
       <form action="" onSubmit={submitHandler} >

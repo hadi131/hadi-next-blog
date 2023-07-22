@@ -5,10 +5,10 @@ const section2 = ({ props }) => {
   return (
     <>
 <div>
-<h1 style={{fontSize:"40px",fontWeight:"700",textAlign:"center"}}>  Latest Blogs
+<h1 style={{fontSize:"40px",fontWeight:"700",textAlign:"center"}}>Blogs
 </h1>
 </div>
-    <div className="sec2-parent">
+    <div className="allMargins sec2-parent">
       {props.SingleBlog.map((v) => {
         return (
           <div className="sec2-main">

@@ -6,7 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-
+.allMargins{
+  max-width: 1200px;
+  margin: auto;
+}
 .slide-card{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -229,12 +232,13 @@ margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px;
   gap: 30px;
+
   
 }
 .sec3-parent{
   display: grid;
   grid-template-columns:  1fr 1fr;
-  padding: 50px;
+  padding: 30px;
   gap: 30px;
   
 }

@@ -54,8 +54,10 @@ const register = () => {
 
   return (
     <>
-    <Toaster/>
-      <div className="register-user-main-div">
+ <Toaster
+        position="bottom-right"
+
+      />      <div className="register-user-main-div">
         <form action="" onSubmit={handleSubmit}>
           <h1>REGISTER</h1>
 
