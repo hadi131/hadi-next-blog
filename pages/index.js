@@ -12,7 +12,7 @@ export default function Home({data}) {
    <Formate>
    <Section1 blog={data}></Section1>
    <Section2 props={data}></Section2>
-   {/* <Section3 pop= {data}></Section3> */}
+   <Section3 pop= {data}></Section3>
    {/* <Section4 buss={data}></Section4> */}
    </Formate>
    </>

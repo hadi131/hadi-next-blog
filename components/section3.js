@@ -20,7 +20,7 @@ const section3 = ({pop}) => {
           <div className="sec3-main">
             <div className="sec2-img">
               <Image
-                style={{ height: "200px" }}
+                style={{ height: "300px" }}
                 alt={v.avatarAlt}
                 src={v.avatar}
                 className="rounded"
@@ -43,7 +43,7 @@ const section3 = ({pop}) => {
             <div className="sec2-title">
               <Link href={`/posts/${v.slug}`}>{v.title}</Link>
             </div>
-            <div className="sec2-subtitle">
+            <div className="sec2-subtitle" style={{height:"125px", overflow:"hidden"}}>
                   {v.subTitle}
             </div>
           <Author></Author>

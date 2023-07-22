@@ -22,7 +22,7 @@ const Header = () => {
 
           {data?.user ? (
             <>
-              <div className="order-3 flex justify-center px-5" >
+              <div className="order-3 flex justify-center px-2 py-2" >
                 <div className="flex gap-6" style={{alignItems:"center"}}>
                   <Link className="nav-links" href="/">
                     Home

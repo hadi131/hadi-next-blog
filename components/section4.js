@@ -15,7 +15,7 @@ const section4 = ({ buss }) => {
                   <>
                      <div className="flex gap-5">
                   <div className="image flex flex-col justify-start">
-                    <Image
+                     <Image
                       alt={v.avatarAlt}
                       src={v.avatar}
                       width={400}
