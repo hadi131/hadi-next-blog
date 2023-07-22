@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 const About = () => {
   return (
-    <div style={{ paddingTop: "80px" }}>
+    <div style={{ paddingTop: "100px" }}>
       <Header></Header>
       <div style={{ maxWidth: "1200px", margin: "auto" }} className="About">
         <div className="MainParentDiv">
