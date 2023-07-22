@@ -1,4 +1,3 @@
-import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { Toast, Toaster, toast } from "react-hot-toast";
@@ -29,7 +28,7 @@ const Header = () => {
                   <Link className="nav-links" href="/">
                     Home
                   </Link>
-                  <Link className="nav-links" href="/">
+                  <Link className="nav-links" href="/about">
                     About
                   </Link>
                   <Link className="nav-links" href="/write">
@@ -60,7 +59,7 @@ const Header = () => {
                 <Link className="nav-links" href="/">
                   Home
                 </Link>
-                <Link className="nav-links" href="/">
+                <Link className="nav-links" href="/about">
                   About
                 </Link>
                 <Link
