@@ -29,13 +29,7 @@ export default async function (req, res) {
             singleBlog._id,
             {
               $set: {
-                ...req.body,
-                slug: req.body.title
-                  .trim()
-                  .toLowerCase()
-                  .replace(/ /g, "-")
-                  .replace(/[^\w-]+/g, "")
-                  .replace(/--/g, "-")
+                ...req.body
               }
             },
             { new: true }
